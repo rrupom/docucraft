@@ -4,7 +4,7 @@ import { assets } from "@/assets";
 
 export default function Logo() {
   return (
-    <div className="hidden lg:flex">
+    <div className="lg:flex">
       <Link aria-label="Home" href="/">
         <Image
           className="h-6 w-auto"
